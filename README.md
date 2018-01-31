@@ -3,7 +3,7 @@ A quick and dirty way of having a redis and a mongo server.
 
 ## how to use it
 
-1. Install docker
+1. Install [docker](https://www.docker.com/community-edition)
 2. Decide where you're going to store the data on your computer, I'll call it /path/to/data
 3. Create a `docker-compose.yml` file with the following contents:
 

@@ -8,4 +8,5 @@ VOLUME /data
 EXPOSE 27017 28017 6379
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY redis.conf /etc/redis.conf
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
